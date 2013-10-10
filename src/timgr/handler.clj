@@ -13,8 +13,9 @@
      [:title title]
      [:link {:rel "stylesheet" :href "//ajax.googleapis.com/ajax/libs/jqueryui/1.10.1/themes/base/jquery-ui.css"}]
      [:link {:rel "stylesheet" :href "//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.css"}]
-     [:link {:rel "stylesheet" :href "//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.print.css"}]]
-    [:body content
+     [:link {:rel "stylesheet" :href "//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.print.css" :media "print"}]]
+    [:body
+     content
      [:script {:src "//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"}]
      [:script {:src "//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"}]
      [:script {:src "//cdnjs.cloudflare.com/ajax/libs/fullcalendar/1.6.4/fullcalendar.min.js"}]
